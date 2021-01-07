@@ -1,15 +1,19 @@
 body{
     font-family: 'Dancing Script', cursive;
-    background-color: lime;
+    background-color: darkblue;
 }
 
 .header_div{
-    background-color: lightsalmon;
+    background-color: darkblue;
     color: red;
+    box-shadow: 5px 5px 10px cyan;
+    height: 90px;
 }
 
 .header_div img{
-    width:100px;
+    width:80px;
+    height: 70px;
+    margin-top: 0%;
 }
 
 .main_div{
@@ -69,7 +73,7 @@ body{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: grey;
+    background-color: lightgrey;
     color: teal;
     line-height: 3;
     text-align: center;
