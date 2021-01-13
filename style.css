@@ -1,13 +1,9 @@
-body{
-    font-family: 'Dancing Script', cursive;
-    background-color: darkblue;
-}
+
 
 .header_div{
-    background-color: darkblue;
     color: red;
-    box-shadow: 5px 5px 10px cyan;
     height: 90px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .header_div img{
@@ -16,65 +12,27 @@ body{
     margin-top: 0%;
 }
 
-.main_div{
-    background-color: cyan;
-    padding: 10px;
-    margin-top: 15px;
-    border: 5px solid blue;
-    font-size: large;
-}
-
-.main_div label{
-    background-color: white;
-    width: 310px;
-    padding: 10px;
-    margin-bottom: 0px;
-    box-shadow: 5px 5px 10px plum;
-}
-
-#camera{
-    border: 2px solid white;
-    width: 310px;
-    height: 300px;
-    box-shadow: 5px 5px 10px pink;
-}
-
-#result{
-    border: 2px solid white;
-    width: 310px;
-    height: 300px;
-    box-shadow: 5px 5px 10px pink;
-}
-
-.main_div button{
-    width: 310px;
-    font-size: 16px;
-    border: 1px solid;
-    box-shadow: 5px 5px 10px plum;
-}
-
-.footer_div{
-    margin-bottom: 50px;
-}
-
-.footer_div h4{
-   background-color: magenta;
-   border-radius: 10px;
-   padding: 5px;
-   box-shadow: 5px 5px 15px lightpink;
-}
-
-.footer_div img{
-    width: 70px;
-    margin-left: 2%;
+.text_images_and_results{
+    width: 30%;
+    text-align: left;
+    box-shadow: 10px 10px 10px lightslategrey;
 }
 
 #copy_right_footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: lightgrey;
-    color: teal;
+    background-color: black;
+    color: white;
     line-height: 3;
     text-align: center;
+    font-size: 10px;
+    height: 25px;
+    font-weight: bold;
+    padding-top: 0%;
+}
+
+.text_images_and_results image{
+    width: 5%;
+    height: 10%;
 }
